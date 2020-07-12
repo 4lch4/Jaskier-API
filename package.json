@@ -1,21 +1,25 @@
 {
 	"name": "jaskier-api",
+	"displayName": "JaskierAPI",
 	"version": "1.0.0",
 	"description": "The backend API for Jaskier.",
 	"keywords": [
-	  "restify",
-	  "template",
-	  "boilerplate"
+		"restify",
+		"api"
 	],
 	"scripts": {
-		"start": "node app.js"
+		"start": "pm2 start pm2.config.js",
+		"pretty:project": "prettier --write ."
 	},
 	"devDependencies": {
-	  "eslint": "4.19.1"
+		"pm2": "4.4.0",
+		"prettier": "^2.0.5"
 	},
 	"dependencies": {
-		"bunyan": "1.8.14",
-		"restify": "6.4.0",
-		"restify-router": "0.5.1"
+		"@types/restify": "^8.4.2",
+		"bunyan": "^1.8.14",
+		"restify": "^8.5.1",
+		"restify-router": "^0.6.0",
+		"restify-url-semver": "^1.1.1"
 	}
 }
