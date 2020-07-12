@@ -3,7 +3,7 @@ info:
   version: 0.0.1
   title: Jaskier
 servers:
-  - url: 'http://localhost:5000'
+  - url: 'http://localhost:5000/api'
     description: Local test server.
   - url: 'https://4lch4.dev/jaskier'
     description: Production server.
