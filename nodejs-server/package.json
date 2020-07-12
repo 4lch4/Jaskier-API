@@ -1,0 +1,20 @@
+{
+  "name": "jaskierapi",
+  "version": "1.0.0",
+  "description": "This is the API for [Jaskier](https://github.com/4lch4/Jaskier). Some of the endpoints are locked to admin tokens for the production version but anyone is more than welcome to stand up their own version for whatever you want. Feel free to reach out to me online via any of the methods listed on [my personal website](https://alcha.org). ",
+  "main": "index.js",
+  "scripts": {
+	"prestart": "npm install",
+	"start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "oas3-tools": "^2.0.2"
+  }
+}
