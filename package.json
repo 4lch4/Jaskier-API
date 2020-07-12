@@ -16,6 +16,6 @@
 	"dependencies": {
 		"bunyan": "1.8.14",
 		"restify": "6.4.0",
-		"restify-router": "0.5.1"
+		"restify-router": "0.6.0"
 	}
 }
