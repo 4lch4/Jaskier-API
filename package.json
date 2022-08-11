@@ -16,7 +16,7 @@
 		"prettier": "2.0.5"
 	},
 	"dependencies": {
-		"@types/restify": "8.4.2",
+		"@types/restify": "8.5.5",
 		"bunyan": "1.8.14",
 		"restify": "8.5.1",
 		"restify-router": "0.6.0",
